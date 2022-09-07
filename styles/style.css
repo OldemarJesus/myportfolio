@@ -700,9 +700,6 @@ section {
 }
 
 @media screen and (max-width: 1432px) {
-  .header-content .right-header {
-    padding: 7rem;
-  }
   .about-container {
     grid-template-columns: 1fr;
   }
@@ -729,9 +726,6 @@ section {
     height: auto;
     padding: 0;
   }
-  header .right-header {
-    padding: 2rem !important;
-  }
   .header-content {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
@@ -756,6 +750,11 @@ section {
     font-size: 4rem;
   }
 }
+@media screen and (max-width: 800px) {
+  .section {
+    padding: 0;
+  }
+}
 @media screen and (max-width: 600px) {
   .theme-btn {
     width: 50px;
@@ -768,6 +767,7 @@ section {
     grid-row: 1;
     width: 90%;
     margin: 0 auto;
+    padding: 0 !important;
   }
   .right-header .name {
     font-size: 2.5rem !important;
@@ -814,9 +814,6 @@ section {
   .contact-content-container .right-contact .input-group :last-child {
     margin-left: 0;
     margin-top: 1.5rem;
-  }
-  .section {
-    padding: 0;
   }
   .main-title h2 {
     font-size: 2rem;
