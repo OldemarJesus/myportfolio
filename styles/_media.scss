@@ -10,6 +10,7 @@
   .section {
     padding: 2rem 2.5rem;
   }
+
   .contact-content-container {
     flex-direction: column;
     padding-bottom: 6rem;
@@ -63,7 +64,7 @@
 
 @media screen and (max-width: 800px) {
   .section {
-    padding: 0;
+    padding: 1rem;
   }
 }
 
