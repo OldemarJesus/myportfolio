@@ -66,6 +66,18 @@
   .section {
     padding: 1rem;
   }
+
+  .submit-btn {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-btn {
+    width: 100%;
+    justify-content: space-between;
+  }
 }
 
 @media screen and (max-width: 600px) {
